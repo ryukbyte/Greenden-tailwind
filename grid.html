@@ -1,0 +1,95 @@
+<style>
+    .container {
+        display: grid;
+        grid-template-rows: 1fr 4fr 1fr;
+    }
+
+    .Header {
+        background-color: blue;
+        padding: 5px;
+    }
+
+    .Middle {
+        background-color: black;
+        color: white;
+    }
+
+    .Footer {
+        background-color: blueviolet;
+        padding: 5px;
+    }
+
+    .row_1 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        height: 200px;
+        gap:5px;
+        margin:20px;
+        
+
+    }
+
+    .box_1 {
+        background-color: pink;
+        padding: 10px;
+        justify-content: center;
+        margin:4px;
+        display:grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box_2 {
+        background-color: green;
+        padding: 10px;
+        justify-content: center;
+        margin:4px;
+        display:grid;
+        align-items: center;
+        justify-content: center;
+
+    }
+     .row_2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 200px;
+        gap:5px;
+        margin:20px;
+     }
+    .box_3{
+        background-color: orange;
+        padding: 10px;
+        justify-content: center;
+        margin:4px;
+        display:grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box_4 {
+        background-color: orange;
+        padding: 10px;
+        justify-content: center;
+        margin:4px;
+        display:grid;
+        align-items: center;
+        justify-content: center;
+
+    }
+</style>
+<div class="container">
+    <div class="header">Header</div>
+    <div class="middle">Middle
+        <div class="row_1">
+            <p class="box_1">main content</p>
+            <p class="box_2">side bar</p>
+        </div>
+        <div class="row_2">
+            <p class="box_3">twin</p>
+            <p class="box_4">twin</p>
+        </div>
+
+    </div>
+
+    <div class="footer">Footer</div>
+</div>

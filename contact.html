@@ -1,0 +1,96 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+<!-- Nav bar -->
+
+<nav class="bg-green-200 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
+    <h1 class=" font-bold text-3xl flex text-green-900">
+        <a href="index.html">Greenden</a>
+    </h1>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+        class="w-6 h-6 flex md:hidden justify-between">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+    </svg>
+
+    <!-- Bar Select -->
+
+    <ul class="hidden md:flex gap-5 text-gray-700">
+        <li>
+            <a href="index.html" class="hover:text-green-900">Home</a>
+        </li>
+        <li>
+            <a href="product.html" class="hover:text-green-900">Products</a>
+        </li>
+        <li>
+            <a href="contact.html" class="hover:text-green-900">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+
+
+<!-- Contact form -->
+<section class="px-4 md:px-8 mt-6">
+   <div class="max-w-xl mx-auto">
+      <div class="mb-12">
+         <h2 class="text-3xl font-bold text-slate-900 mb-6 md:text-4xl dark:text-slate-50">
+            Contact us
+         </h2>
+         <p class="text-base leading-relaxed text-slate-600 dark:text-slate-400">
+            Have a question, need support, or want to discuss your next project? We’re here to help.
+         </p>
+      </div>
+
+      <form class="space-y-6">
+         <div>
+            <label for="name"
+               class="mb-2 text-slate-900 dark:text-slate-50 font-medium text-sm inline-block">Name</label>
+            <input type="text" id="name" name="name" placeholder="John doe"
+               class="px-3 py-2.5 text-sm text-slate-900 w-full border rounded-md bg-white outline-1 -outline-offset-1 outline-slate-300 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 dark:text-slate-50 dark:bg-neutral-800 dark:outline-neutral-700" />
+         </div>
+         <div>
+            <label for="email"
+               class="mb-2 text-slate-900 dark:text-slate-50 font-medium text-sm inline-block">Email</label>
+            <input type="email" id="email" name="email" placeholder="john@readymadeui.com"
+               class="px-3 py-2.5 text-sm text-slate-900 w-full border rounded-md bg-white outline-1 -outline-offset-1 outline-slate-300 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 dark:text-slate-50 dark:bg-neutral-800 dark:outline-neutral-700" />
+         </div>
+         <div>
+            <label for="phone" class="mb-2 text-slate-900 dark:text-slate-50 font-medium text-sm inline-block">Phone
+               number</label>
+            <input type="number" id="phone" name="phone" placeholder="+11800-259-854"
+               class="px-3 py-2.5 text-sm text-slate-900 w-full border rounded-md bg-white outline-1 -outline-offset-1 outline-slate-300 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 dark:text-slate-50 dark:bg-neutral-800 dark:outline-neutral-700" />
+         </div>
+         <div>
+            <label for="company"
+               class="mb-2 text-slate-900 dark:text-slate-50 font-medium text-sm inline-block">Company</label>
+            <input type="text" id="company" name="company" placeholder="XYZ pvt. ltd."
+               class="px-3 py-2.5 text-sm text-slate-900 w-full border rounded-md bg-white outline-1 -outline-offset-1 outline-slate-300 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 dark:text-slate-50 dark:bg-neutral-800 dark:outline-neutral-700" />
+         </div>
+         <div>
+            <label for="message"
+               class="mb-2 text-slate-900 dark:text-slate-50 font-medium text-sm inline-block">Message</label>
+            <textarea placeholder="Write message" rows="6" type="text" id="message" name="message"
+               class="px-3 py-2.5 text-sm text-slate-900 w-full border rounded-md bg-white outline-1 -outline-offset-1 outline-slate-300 focus:outline-2 focus:-outline-offset-2 focus:outline-blue-600 dark:text-slate-50 dark:bg-neutral-800 dark:outline-neutral-700"></textarea>
+         </div>
+
+         <button type="submit"
+            class="py-2.5 px-4 text-sm rounded-md font-semibold cursor-pointer text-white border border-blue-600 bg-blue-600 hover:bg-blue-700 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">Send
+            message</button>
+      </form>
+   </div>
+</section>
+
+<!-- Footer -->
+
+<section class="bg-green-200 p-7 mt-5">
+    <h1 class=" text-black text-4xl font-bold mt-4">Greenden</h1>
+    <p class="text-black font-thin mt-4 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio,
+        voluptatum corporis architecto, fugit
+        praesentium autem molestias odit consectetur, quia repudiandae ea! Tenetur molestias quia minus error
+        similique suscipit rerum corrupti.</p>
+    <p class="mt-4">@ Greenday.com</p>
+</section>

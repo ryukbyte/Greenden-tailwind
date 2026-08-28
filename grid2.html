@@ -1,0 +1,87 @@
+<style>
+    .Header {
+        background-color: #3368A0;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:80px;
+    }
+
+    .Middle {
+        background-color: #F2EFE7;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .Footer {
+        background-color: #3368A0;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:80px;
+    }
+
+    .main_container {
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+    }
+
+    .aside {
+        background-color: #FF9100;
+        height: 600px;
+        margin:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .article {
+        background-color: #B9D175;
+        height: 600px;
+        margin:30px;
+        text-align:center;
+        padding-top: 70px;
+    }
+
+    .one,
+    .two,
+    .three {
+        background-color: #450C3F;
+        color:white;
+        margin-top: 20px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 190px;
+        margin:20px;
+
+    }
+    .boxes{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        height: 400px;
+        justify-content:center;
+        align-items: center;
+        margin-top: 140px;
+    }
+</style>
+
+
+<div class="Header">Header</div>
+<div class="Middle">Middle
+    <div class="main_container">
+        <div class="aside">Aside</div>
+        <div class="article">Article
+            <div class="boxes">
+                <div class="one">Image</div>
+                <div class="two">Image</div>
+                <div class="three">Image</div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<div class="Footer">Footer</div>
